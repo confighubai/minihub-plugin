@@ -2,7 +2,7 @@
 
 A plugin for Claude Code, and for Codex, that keeps a record of what an agent changes in configuration, and why. You don't change your prompts or add instructions. When an agent opens a file, or looks at a resource, that earlier sessions changed, it is given what they changed and why, before it changes the same value.
 
-ConfigHub is the product, and this plugin is the simplest way into it:
+ConfigHub is the product, and this plugin is aimed at agents and AI use:
 
 1. **The ConfigHub plugin** gives a record, with no hub, and tells the next agent what earlier ones changed and why.
 2. **confighub mini** is ConfigHub, small, on a laptop: an agent can propose a change to production, and only the person you name can approve it. It is not yet published for download.
